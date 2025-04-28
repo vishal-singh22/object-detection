@@ -17,7 +17,7 @@ A high-performance system for real-time object detection and tracking using YOLO
 
 Check out the tracking system in action:
 
-[![Object Tracking Demo](assets/demo_thumbnail.png)](https://raw.githubusercontent.com/your-username/your-repo-name/main/output/detection_output.avi)
+[![Object Tracking Demo](output/people_thumb.png)](https://raw.githubusercontent.com/your-username/your-repo-name/main/output/detection_output.avi)
 
 > Click the image above to download/play the full demo video.
 
