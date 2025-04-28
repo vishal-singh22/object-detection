@@ -44,8 +44,8 @@ With this hardware configuration, the system achieves 30+ FPS on YOLOv8n model a
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/real-time-object-tracking.git
-cd real-time-object-tracking
+git clone https://github.com/vishal-singh22/object-detection.git
+cd object-detection
 
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
@@ -59,7 +59,7 @@ pip install opencv-python numpy ultralytics
 ## Usage
 
 ```bash
-python detect_track.py --source [SOURCE] --model [MODEL_PATH] [OPTIONS]
+python Object-detection.py --source [SOURCE] --model [MODEL_PATH] [OPTIONS]
 ```
 
 ### Arguments
@@ -81,16 +81,16 @@ python detect_track.py --source [SOURCE] --model [MODEL_PATH] [OPTIONS]
 
 ```bash
 # Run with webcam
-python detect_track.py --device cuda
+python Object-detection.py --device cuda
 
 # Run with video file
-python detect_track.py --source path/to/video.mp4 --save-video
+python Object-detection.py --source path/to/video.mp4 --save-video
 
 # Run with custom model and higher confidence threshold
-python detect_track.py --model yolov8m.pt --conf 0.6
+python Object-detection.py --model yolov8m.pt --conf 0.6
 
 # Run on CPU with reduced resolution for better performance
-python detect_track.py --device cpu --process-resolution 320x320
+python Object-detection.py --device cpu --process-resolution 320x320
 ```
 
 ## How It Works
